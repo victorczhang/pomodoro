@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' type="text/css" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1> Pomodoro :D </h1>
+        </div>
+        <div class='display'>
+            <h1 id='timer'>25:00</h1>
+        </div>
+        <div class='session'>
+            <h1>Study</h1>
+            <h1>Break</h1>
+        </div>
+        <div class='session-time'>
+            <button onclick='startTimerSubFive()'>-5</button>
+            <button onclick='startTimerSub()'>-</button>
+            <h1 id='study-time'>25:00</h1>
+            <button onclick='startTimerAdd()'>+</button>
+            <button onclick='startTimerAddFive()'>+5</button>
+
+            <button onclick='breakTimerSubFive()'>-5</button>
+            <button onclick='breakTimerSub()'>-</button>
+            <h1 id='break-time'>5:00</h1>
+            <button onclick='breakTimerAdd()'>+</button>
+            <button onclick='breakTimerAddFive()'>+5</button>
+        </div>
+        <div class='operators'>
+            <button id='play' onclick='startTimer()'>Play</button>
+            <button id='pause' onclick='pauseTimer()'>Pause</button>
+            <button id='resume' onclick='resumeTimer()'>Resume</button>
+        </div>
+    </body>
+    <script src='pomodoro.js'></script>;
+</html>

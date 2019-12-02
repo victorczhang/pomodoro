@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.session {
+    display: flex;
+    /* background: orange; */
+    justify-content: space-around;
+}
+
+.operators {
+    display: flex;
+    /* background: purple; */
+    justify-content: space-around;
+}
+
+.session-time {
+    display: flex;
+    /* background: yellow; */
+    justify-content: space-around;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+#pause, #play {
+    width: 300px;
+    height: 300px;
+}
