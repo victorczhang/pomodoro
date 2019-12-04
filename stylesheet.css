@@ -4,30 +4,77 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.session {
-    display: flex;
-    /* background: orange; */
-    justify-content: space-around;
+button {
+    border-radius: 20px;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
 }
 
 .operators {
     display: flex;
-    /* background: purple; */
-    justify-content: space-around;
+    /* background: yellow; */
+    justify-content: center;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    /* width: 750px; */
+    flex-wrap: wrap;
 }
 
-.session-time {
+#study-heading, #break-heading {
+    /* background: orange; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    justify-content: center;
+    /* display: flex; */
+    /* flex: 1 1 auto; */
+}
+
+.timers {
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    width: 75%;
+}
+
+.study, .break {
     display: flex;
     /* background: yellow; */
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    width: 50%;
+    flex-wrap: wrap;
 }
 
 .display {
     display: flex;
     justify-content: center;
+    align-items: center;
+    /* font-size: 60px; */
+    /* background: chartreuse; */
+    /* width: 100%; */
+    flex-wrap: wrap;
 }
 
-#pause, #play {
+#timer {
+    display: flex;
+    /* background: yellow; */
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#timer-label {
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+#pause, #play, #reset {
     width: 300px;
-    height: 300px;
+    height: 50px;
+    /* margin-top: 20px; */
 }
